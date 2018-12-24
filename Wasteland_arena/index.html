@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <meta charset = "utf-8">
+  <meta name = viewport content = "width = device-width, initial-scale = 1">
+  <title>Wasteland Arena</title>
+  <link href = "https://fonts.googleapis.com/css?family=Acme" rel = "stylesheet"> 
+  <link rel = "stylesheet" href = "css/style.css">
+  <script src = "js/game_manager.js"></script>
+  <script src = "js/player.js"></script>
+  <script src = "js/enemy.js"></script>
+</head>
+
+<body>
+ <div class = "header">
+  <h1>Wasteland Arena</h1>
+  <p>Welcome to the meanest shit-hole left in this god-forsaken world.</p>
+  <h2>Choose your fighter.</h2>
+ </div>
+
+ <div class = "interface">
+  <a href = "#" onclick = "GameManager.setGameStart('Rocket')">
+   <img src = "graphics/rocket.png" alt = "Rocket">
+   <div>
+    <h3>Rocket</h3>
+    <p>Rocket is a short fella with an even shorter temper. He enjoys
+    blowing up boulders out behind the arena in his spare time.</p>
+   </div>
+  </a>
+
+  <a href = "#" onclick = "GameManager.setGameStart('Castle')">
+   <img src = "graphics/castle.png" alt = "Castle">
+   <div>
+    <h3>Castle</h3>
+    <p>Some kind of spook that worked for the government before the
+    war, Castle carries a real chip on his shoulder...</p>
+   </div>
+  </a>
+
+  <a href = "#" onclick = "GameManager.setGameStart('Grognak')">
+   <img src = "graphics/grognak.png" alt = "Grognak">
+   <div>
+    <h3>Grognak</h3>
+    <p>Weighing in at around 400 pounds it really seems like
+    drinking all that irradiated water has had an effect on Grognak.</p>
+   </div>
+  </a>
+
+  <a href = "#" onclick = "GameManager.setGameStart('Murdock')">
+   <img src = "graphics/murdock.png" alt = "Murdock">
+   <div>
+    <h3>Murdock</h3>
+    <p>Maybe it's the catholic in him but Murdock seems angry at everyone
+    and everything. Theres some devil in that boy.</p>
+   </div>
+  </a>
+
+  <a href = "#" onclick = "GameManager.setGameStart('Ragnar')">
+   <img src = "graphics/ragnar.png" alt = "Ragnar">
+   <div>
+    <h3>Ragnar</h3>
+    <p>Ragnar used to run with raiders, no one knows why he settled
+    into life at the arena. He has a pet crow that stays by his side.</p>
+   </div>
+  </a>
+
+  <a href = "#" onclick = "GameManager.setGameStart('Pietr')">
+   <img src = "graphics/pietr.png" alt = "Pietr">
+   <div>
+    <h3>Pietr</h3>
+    <p>Pieter is built like a tank, and has a tendency to walk 
+    around carrying more firepower than most tanks even have.</p>
+   </div>
+  </a>
+
+ </div>
+
+ <div class = "actions">
+ </div>
+
+ <div class = "arena">
+ </div>
+
+ <div class = "enemy">
+ </div>
+
+</body>
+
+</html>
